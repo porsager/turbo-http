@@ -110,6 +110,18 @@ fastify.js    | 15141.6    | 6.47    | 2.26
 express.js    | 13408.8    | 7.31    | 1.46
 hapi.js       | 9675.6     | 10.15   | 1.42
 
+&nbsp;        | Requests/s | Latency | Throughput/Mb 
+------------- | ---------- | ------- | --------------
+turbo-http.js | 124870.4   | 0.75    | 9.25          
+ey-turbo.js   | 120032     | 0.78    | 8.95          
+bare-node.js  | 82732.8    | 1.15    | 9.15          
+polka.js      | 78227.2    | 1.22    | 8.65          
+rayo.js       | 78009.61   | 1.23    | 8.65          
+ey.js         | 76396.8    | 1.25    | 8.53          
+fastify.js    | 67993.61   | 1.41    | 10.25         
+express.js    | 63337.6    | 1.52    | 7.03          
+hapi.js       | 43478.4    | 2.24    | 6.53          
+
 > **Note:** Nevermind these numbers, this benchmark was run on a slow computer and the above table is for illustrative purposes only.
 
 Optionally, you may also define your test's parameters:
