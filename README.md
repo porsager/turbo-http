@@ -100,16 +100,6 @@ Benchmark it:
 
 Benchmark averages are taken after one warm-up round.
 
-&nbsp;        | Requests/s | Latency | Throughput/Mb
-------------- | ---------- | ------- | --------------
-turbo-http.js | 32592      | 3.03    | 2.43
-bare-node.js  | 18396      | 5.32    | 1.98
-rayo.js       | 16249.6    | 6.03    | 1.77
-polka.js      | 15802.4    | 6.2     | 1.71
-fastify.js    | 15141.6    | 6.47    | 2.26
-express.js    | 13408.8    | 7.31    | 1.46
-hapi.js       | 9675.6     | 10.15   | 1.42
-
 &nbsp;        | Requests/s | Latency | Throughput/Mb 
 ------------- | ---------- | ------- | --------------
 turbo-http.js | 124870.4   | 0.75    | 9.25          
