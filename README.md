@@ -102,15 +102,16 @@ Benchmark averages are taken after five warm-up rounds.
 
 &nbsp;        | Requests/s | Latency | Throughput/Mb
 ------------- | ---------- | ------- | --------------
-ey-turbo.js   | 132108.8   | 0.72    | 9.85          
-turbo-http.js | 130611.2   | 0.72    | 9.85          
-bare-node.js  | 79340.8    | 1.21    | 8.75          
-ey.js         | 77856      | 1.23    | 8.75          
-polka.js      | 76243.2    | 1.25    | 8.55          
-fastify.js    | 74156.8    | 1.29    | 11.15         
-rayo.js       | 72684.8    | 1.32    | 8.18          
-express.js    | 66809.61   | 1.44    | 7.38          
-hapi.js       | 45532.8    | 2.13    | 6.83          
+turbo-http.js | 140633.6   | 0.65    | 10.65         
+ey-turbo.js   | 139328     | 0.67    | 10.55         
+uws.js        | 135769.6   | 0.68    | 9.75          
+bare-node.js  | 85472      | 1.12    | 9.45          
+polka.js      | 82617.61   | 1.15    | 9.25          
+ey.js         | 81440      | 1.17    | 8.95          
+rayo.js       | 79532.8    | 1.2     | 8.75          
+fastify.js    | 73478.4    | 1.3     | 11.05         
+express.js    | 68230.4    | 1.41    | 7.58          
+hapi.js       | 45782.4    | 2.12    | 6.83          
 
 > **Note:** Nevermind these numbers, this benchmark was run on a slow computer and the above table is for illustrative purposes only.
 

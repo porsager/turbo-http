@@ -6,7 +6,8 @@
   "dependencies": {
     "ey": "0.9.1",
     "http-parser-js": "^0.4.11",
-    "turbo-net": "^1.4.0"
+    "turbo-net": "^1.4.0",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v17.1.0"
   },
   "devDependencies": {
     "autocannon": "^2.4.1",
