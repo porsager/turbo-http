@@ -45,6 +45,10 @@ const benchmark = async (results) => {
         const spin = ora(`Warming up ${chalk.blue(file)}`).start()
         spin.color = 'yellow'
         await canrejectn()
+        await canrejectn()
+        await canrejectn()
+        await canrejectn()
+        await canrejectn()
         spin.text = `Running ${chalk.blue(file)}`
         spin.color = 'green'
         const result = await canrejectn(file)
