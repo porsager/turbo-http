@@ -98,7 +98,7 @@ Benchmark it:
 - `npm i`
 - `npm run bench`
 
-Benchmark averages are taken after one warm-up round.
+Benchmark averages are taken after five warm-up rounds.
 
 &nbsp;        | Requests/s | Latency | Throughput/Mb
 ------------- | ---------- | ------- | --------------
